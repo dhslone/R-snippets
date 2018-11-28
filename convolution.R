@@ -14,8 +14,7 @@ byr_pal <- colorRampPalette(c("gray80", "blue", "yellow", "red"))
 yr_table <- data.frame(
   years = c(2000, 2010, 2020, 2030, 2040), # first year is data, others model output periods
   H1_add = c(NA, 10, 11, 12, 13), # pixels per year to add to first habitat per period
-  H2_add = c(NA, 10, 8, 8, 8)
-) # pixels per year to add to second habitat per period
+  H2_add = c(NA, 10, 8, 8, 8)) # pixels per year to add to second habitat per period
 
 loc <- "test_location"
 habs <- c("Habitat1", "Habitat2", "Habitat3")
